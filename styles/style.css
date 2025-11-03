@@ -4,7 +4,8 @@
     background-image: url(../img/pattern.png);
     background-color: #64a2ff;
     align-items: center;
-    background-position: center -30px; /* sposto il pattern 20px più in alto */
+    background-position: center -30px;
+    /* sposto il pattern 20px più in alto */
 
 }
 
@@ -13,7 +14,7 @@
     display: block;
     padding-top: 60px;
     padding-left: 5px;
-     height: 60px;
+    height: 60px;
 }
 
 .h1-font {
@@ -23,26 +24,29 @@
 .article-meta {
     color: #444;
 }
+
 .author {
-    color:#64a2ff;
+    color: #64a2ff;
     font-weight: 700;
 }
 
 
 
-.first-photo { 
-    width : 600px; 
-    height : 400px; 
-} 
-.second-photo { 
-    width : 480px; height : 400px; 
+.first-photo {
+    width: 600px;
+    height: 400px;
+}
+
+.second-photo {
+    width: 480px;
+    height: 400px;
 }
 
 .article-description2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: 500;
-    
+
 }
 
 
@@ -50,25 +54,25 @@
     font-family: 'Times New Roman', Times, serif;
     color: #111;
     background-color: yellow;
-    
+
 }
 
 .article-list ul {
-  list-style: disc;
-  padding-left: 15px;
+    list-style: disc;
+    padding-left: 15px;
 }
 
 .table-header {
     background-color: #64a2ff;
     text-align: left;
-    color:white; 
+    color: white;
     padding: 10px 12px;
-     
+
 }
 
 .table-row1 {
     background-color: #d2f0f7;
-    
+
 }
 
 
@@ -77,28 +81,70 @@
 }
 
 .article-table {
-  width : 100%;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
-  line-height: 1.5;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .table {
-  width: 100%;
+    width: 100%;
 }
 
 
 .table th:nth-child(1),
 .table td:nth-child(1) {
-  width: 20%;
+    width: 20%;
 }
 
 .table th:nth-child(2),
 .table td:nth-child(2) {
-  width: 20%;
+    width: 20%;
 }
 
 .table th:nth-child(3),
 .table td:nth-child(3) {
-  width: 60%;
+    width: 60%;
+}
+
+
+.footer-title {
+    color: #555;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.image-footer {
+    position: relative;
+    /* serve per posizionare il testo sopra */
+}
+
+.photo-one {
+    width: 250px;
+    height: 200px;
+}
+
+.photo-two {
+    width: 250px;
+    height: 200px;
+}
+
+.footer-text-pink,
+.footer-text-white {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.footer-text-pink {
+    color: white;
+}
+
+.footer-text-white {
+    color: #fff;
 }
