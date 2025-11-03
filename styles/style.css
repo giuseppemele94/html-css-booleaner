@@ -15,3 +15,25 @@
     padding-left: 5px;
      height: 60px;
 }
+
+.h1-font {
+    font-size: 50px;
+}
+
+.article-meta {
+    color: #444;
+}
+.author {
+    color:#64a2ff;
+    font-weight: 700;
+}
+
+
+
+.first-photo { 
+    width : 600px; 
+    height : 400px; 
+} 
+.second-photo { 
+    width : 480px; height : 400px; 
+}
