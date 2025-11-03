@@ -37,3 +37,23 @@
 .second-photo { 
     width : 480px; height : 400px; 
 }
+
+.article-description2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+
+.article-color-background {
+    font-family: 'Times New Roman', Times, serif;
+    color: #111;
+    background-color: yellow;
+    
+}
+
+.article-list ul {
+  list-style: disc;
+  padding-left: 15px; /* riduce lo spazio predefinito (default ≈ 40px) */
+}
